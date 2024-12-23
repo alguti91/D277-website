@@ -1,0 +1,81 @@
+.cities-hero-section {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+  }
+  
+  .cities-hero-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .cities-hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .cities-hero-overlay h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .cities-hero-overlay p {
+    font-size: 18px;
+  }
+  
+  .city-details {
+    padding: 40px 20px;
+    background-color: whitesmoke;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .city-details h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    color: var(--dark-green_color);
+    margin-bottom: 20px;
+  }
+  
+  .city-details ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .city-details li {
+    margin: 10px 0;
+    font-size: 16px;
+    color: var(--dark-green_color);
+  }
+  
+  .city-details strong {
+    color: var(--dark-green_color);
+  }
+  
+  .site-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  @media (max-height: 1090px) {
+    .site-footer {
+      bottom: -500px;
+      width: 100%;
+    }
+  }
+  

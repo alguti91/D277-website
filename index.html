@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="Welcome to the beautiful state of Oregon"
+    />
+    <title>Oregon State Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-name-wrapper">
+        <h1 class="site-name">Oregon</h1>
+      </div>
+      <nav class="nav-bar">
+        <ul class="nav-links">
+          <li><a href="#home-link">Home</a></li>
+          <li><a href="salem.html">Salem</a></li>
+          <li><a href="portland.html">Portland</a></li>
+          <li><a href="eugene.html">Eugene</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <form class="search-form" method="get">
+        <div class="input-container">
+          <input
+            type="search"
+            placeholder="Search"
+            name="query"
+            autocomplete="on"
+          />
+          <button type="submit" class="search-button">
+            <i class="fa fa-search"></i>
+          </button>
+          <button type="button" class="clear-button">
+            <i class="fa fa-xmark"></i>
+          </button>
+        </div>
+      </form>
+    </header>
+    <main>
+      <section class="hero-section" id="home">
+        <div class="hero-overlay">
+          <h2 class="hero-title">Discover Oregon</h2>
+          <p class="hero-subtitle">Where Nature and Elegance Unite</p>
+          <a href="#cities" class="cta-button">Explore Cities</a>
+        </div>
+        <img
+          src="https://res.cloudinary.com/do16dogzy/image/upload/v1734420737/mt-hood_ui8ijy.jpg"
+          alt="Mount Hood"
+        />
+      </section>
+
+      <section class="quick-facts">
+        <h2>Oregon Facts</h2>
+        <p>Here are some interesting facts about Oregon:</p>
+        <ul>
+          <li>Known as the "Beaver State"</li>
+          <li>Crater Lake is the deepest lake in the U.S.</li>
+          <li>Home to more than 200 waterfalls</li>
+        </ul>
+        <p>Top industries in Oregon:</p>
+        <ol>
+          <li>Technology</li>
+          <li>Forestry</li>
+          <li>Agriculture</li>
+        </ol>
+      </section>
+
+      <section class="oregon-table">
+        <h2>Oregon Demographics</h2>
+        <table>
+          <tr>
+            <th>City</th>
+            <th>Population</th>
+            <th>Region</th>
+            <th>Average Income</th>
+          </tr>
+          <tr>
+            <td>Salem</td>
+            <td>177,019</td>
+            <td>Willamette Valley</td>
+            <td>$60,000</td>
+          </tr>
+          <tr>
+            <td>Portland</td>
+            <td>652,503</td>
+            <td>Northwest</td>
+            <td>$65,000</td>
+          </tr>
+          <tr>
+            <td>Eugene</td>
+            <td>176,654</td>
+            <td>Southern Oregon</td>
+            <td>$58,500</td>
+          </tr>
+        </table>
+      </section>
+
+      <section class="city-thumbnails" id="cities">
+        <h2 class="cities-title">Explore Cities</h2>
+        <div class="city-cards">
+          <a href="salem.html" class="city-card" id="salem">
+            <img
+              src="https://traveloregon.com/wp-content/uploads/2014/01/TripIdeas_Salem_2000x1000-1.jpg"
+              alt="Salem"
+            />
+            <h3>Salem</h3>
+          </a>
+          <a href="portland.html" class="city-card" id="portland">
+            <img
+              src="https://www.greaterportlandinc.com/media/userfiles/subsite_214/images/news/Greater%20Portland%20aerial.jpg"
+              alt="Portland"
+            />
+            <h3>Portland</h3>
+          </a>
+          <a href="eugene.html" class="city-card" id="eugene">
+            <img
+              src="https://static1.thetravelimages.com/wordpress/wp-content/uploads/2024/09/jpgtopngconverter-com-2024-09-11t170656-668.jpg?q=70&fit=crop&w=1140&h=&dpr=1"
+              alt="Eugene"
+            />
+            <h3>Eugene</h3>
+          </a>
+        </div>
+      </section>
+
+      <aside class="landmark-section">
+        <p class="landmarks-title">Beautiful Attractions</p>
+
+        <div class="landmark-row">
+          <img
+            src="https://images.squarespace-cdn.com/content/v1/5c507a04ec4eb7b4b061b1ef/671d5586-1507-412e-98c9-0e64eca771b2/Multnomah-Falls-.jpg"
+            alt="Multnomah Falls"
+            class="landmark-photo multnomah-photo float-left"
+          />
+          <div class="landmark-description multnomah-description float-right">
+            <h3>Multnomah Falls</h3>
+            <p>
+              Multnomah Falls is Oregon&apos;s most iconic waterfall, cascading
+              620 feet in two major steps. It&apos;s a popular destination for
+              nature lovers and hikers alike.
+            </p>
+          </div>
+        </div>
+
+        <div class="landmark-row">
+          <div class="landmark-description crater-description float-left">
+            <h3>Crater Lake</h3>
+            <p>
+              Crater Lake is the deepest lake in the United States, known for
+              its stunning blue color and breathtaking views. It was formed by a
+              collapsed volcano.
+            </p>
+          </div>
+          <img
+            src="https://i.natgeofe.com/n/e17cf891-e51e-437f-9179-90f15efa2d55/NationalGeographic_2685397.jpg"
+            alt="Crater Lake"
+            class="landmark-photo crater-photo float-right"
+          />
+        </div>
+      </aside>
+    </main>
+    <section class="references">
+      <h2>References</h2>
+      <ul>
+        <!-- City Information -->
+        <li>
+          Information about Salem retrieved from
+          <a href="https://www.cityofsalem.net/" target="_blank"
+            >City of Salem Official Website</a
+          >.
+        </li>
+        <li>
+          Information about Portland retrieved from
+          <a href="https://www.travelportland.com/" target="_blank"
+            >Travel Portland</a
+          >.
+        </li>
+        <li>
+          Information about Eugene retrieved from
+          <a href="https://www.eugenecascadescoast.org/" target="_blank"
+            >Eugene Cascades &amp; Coast</a
+          >.
+        </li>
+        <li>
+          Demographics and income statistics sourced from
+          <a href="https://www.census.gov/" target="_blank"
+            >U.S. Census Bureau</a
+          >.
+        </li>
+
+        <!-- Images -->
+        <li>
+          Image of Mount Hood from
+          <a
+            href="https://www.reddit.com/r/wallpapers/comments/4qhe0l/mt_hood_or_5312x2988/#lightbox"
+            target="_blank"
+            >Reddit</a
+          >
+          &amp; utilizing <a href="https://res.cloudinary.com/">Cloudinary</a> by
+          the project creator.
+        </li>
+        <li>
+          Image of Salem from
+          <a href="https://traveloregon.com/" target="_blank">Travel Oregon</a>.
+        </li>
+        <li>
+          Image of Portland from
+          <a href="https://www.greaterportlandinc.com/" target="_blank"
+            >Greater Portland Inc</a
+          >.
+        </li>
+        <li>
+          Image of Eugene from
+          <a href="https://www.thetravelimages.com/" target="_blank"
+            >The Travel Images</a
+          >.
+        </li>
+        <li>
+          Image of Multnomah Falls from
+          <a href="https://images.squarespace-cdn.com/" target="_blank"
+            >Squarespace</a
+          >.
+        </li>
+        <li>
+          Image of Crater Lake from
+          <a href="https://www.natgeographic.com/" target="_blank"
+            >National Geographic</a
+          >.
+        </li>
+      </ul>
+    </section>
+    <footer class="site-footer">
+      <p>&copy; 2024 State of Oregon. All rights reserved.</p>
+      <p>
+        Created by Albert Gutierrez for WGU. Learn more about Oregon at
+        <a href="https://www.traveloregon.com" target="_blank">Travel Oregon</a>
+        and <a href="https://www.oregon.gov" target="_blank">Oregon.gov</a>
+      </p>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
